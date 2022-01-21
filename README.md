@@ -7,7 +7,7 @@
 - [x] Norm
 - [x] Inner Product
 - [x] Array
-- [x] Linear Regression
+- [x] Linear Regression with inverse array
 - [x] Gradient Descent(GD)
 - [x] Linear regression with GD
 - [x] mini batch Sampling Gradient Descent(mini batch SGD)
