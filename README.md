@@ -2,7 +2,8 @@
 
 <h4>Let's commit any code everyday.</h4>
 
-<h2 href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01.ipynb">Week 1 keyword<h2>
+<h2>Week 1 keyword<h2>
+<a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01.ipynb">practise</a>
 
 - [x] Norm
 - [x] Inner Product
