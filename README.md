@@ -1,4 +1,4 @@
-<h1>Boostcamp AI Tech 3 : Computer Visin(CV)</h1>
+<h1>Boostcamp AI Tech 3 : Computer Vision(CV)</h1>
 
 <h4>Let's commit any code everyday.</h4>
 
