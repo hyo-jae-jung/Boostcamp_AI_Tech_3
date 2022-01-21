@@ -1,4 +1,7 @@
-<h1>Let's commit any code everyday.</h1>
+<h1>Boostcamp AI Tech 3 : Computer Visin(CV)</h1>
+
+<h4>Let's commit any code everyday.</h4>
+
 <h2>Week 1 keyword<h2>
 
 - [x] Gradient Descent(GD)
@@ -9,3 +12,5 @@
 - [ ] Monte Carlo Sampling
 - [ ] Convolutional Neural Network(CNN)
 - [ ] Recurrent Neural Network(RNN)
+
+<!-- <h2>Week 2 keyword</h2> -->
