@@ -20,4 +20,8 @@
 - [ ] Convolutional Neural Network(CNN)
 - [ ] Recurrent Neural Network(RNN)
 
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
+<h2>
+
 <!-- <h2>Week 2 keyword</h2> -->
