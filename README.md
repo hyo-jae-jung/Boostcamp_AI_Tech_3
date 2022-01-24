@@ -24,4 +24,7 @@
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
 
-<!-- <h2>Week 2 keyword</h2> -->
+<h2>Week 2 keyword</h2>
+
+Week 2_1 : (numpy vs torch), (view vs reshape), (squeeze, unsqueeze), (dot, mm, matmul), nn.functional, AutoGrad
+Week 2-2 : 
