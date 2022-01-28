@@ -34,13 +34,13 @@ Week 2_1 : (numpy vs torch(tensor)), (view vs reshape), (squeeze, unsqueeze), (d
 Week 2-2 : 
 
 - [ ] Pytorch
-    - [ ] Operation
-        - [ ] Tensor
+    - [x] Operation
+        - [x]] Tensor
         - [x] view vs reshape
         - [x] squeeze, unsqueeze
-        - [ ] dot, mm, matmul
-        - [ ] nn.functional
-        - [ ] AutoGrad
+        - [x] dot, mm, matmul
+        - [x] nn.functional
+        - [x] AutoGrad
     - [ ] torch.nn.Module
         - [ ] nn.Parameter
         - [ ] Backward
