@@ -35,7 +35,7 @@ Week 2-2 :
 
 - [ ] Pytorch
     - [x] Operation
-        - [x]] Tensor
+        - [x] Tensor
         - [x] view vs reshape
         - [x] squeeze, unsqueeze
         - [x] dot, mm, matmul
