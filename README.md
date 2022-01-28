@@ -4,7 +4,7 @@
 
 Machine_Learning_Loadmap.jpg
 
-<h2>Week 1 keyword : AI Math & Python<h2>
+<h2>Week 1 keyword : AI Math & Python</h2>
 
 - [ ] [AI Math](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01_AI_Math.ipynb)
     - [x] Norm
@@ -20,6 +20,7 @@ Machine_Learning_Loadmap.jpg
     - [ ] Bayesian Theory
     - [ ] Convolutional Neural Network(CNN)
     - [ ] Recurrent Neural Network(RNN)
+    
 - [ ] Python
 
 <h2>
@@ -57,4 +58,4 @@ Machine_Learning_Loadmap.jpg
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_2.txt">Week 1 memoir</a>
-<h2>
+<h2/>
