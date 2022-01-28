@@ -5,7 +5,7 @@
 Machine_Learning_Loadmap.jpg
 
 <h2>
-    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01.ipynb">Week 1 keyword : AI Math</a>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01.ipynb">Week 1 keyword : AI Math & Python</a>
 <h2>
 
 - [ ] AI Math
@@ -28,7 +28,7 @@ Machine_Learning_Loadmap.jpg
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
 
-<h2>Week 2 keyword : Pytorch</h2>
+<h2>Week 2 keyword : PyTorch</h2>
 
 Week 2_1 : (numpy vs torch(tensor)), (view vs reshape), (squeeze, unsqueeze), (dot, mm, matmul), nn.functional, AutoGrad
 Week 2-2 : 
