@@ -22,6 +22,11 @@ Machine_Learning_Loadmap.jpg
     - [ ] Recurrent Neural Network(RNN)
     
 - [ ] Python
+    - [ ] Outline
+        - [ ] Dynamic Typing
+        - [ ] Object-Oriented Programming(OOP)
+        - [ ] Interpreter
+
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
