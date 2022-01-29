@@ -30,14 +30,14 @@ Machine_Learning_Loadmap.jpg
 <h2>Week 2 keyword : PyTorch</h2>
 
 - [ ] Pytorch
-    - [x] Operation
+    - [x] [Operation](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week02_Operation.ipynb)
         - [x] Tensor
         - [x] view vs reshape
         - [x] squeeze, unsqueeze
         - [x] dot, mm, matmul
         - [x] nn.functional
         - [x] AutoGrad
-    - [ ] torch.nn.Module
+    - [ ] [torch.nn.Module](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week02_Module.ipynb)
         - [x] nn.Parameter
         - [x] Backward
         - [ ] Dataset
