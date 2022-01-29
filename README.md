@@ -38,8 +38,8 @@ Machine_Learning_Loadmap.jpg
         - [x] nn.functional
         - [x] AutoGrad
     - [ ] torch.nn.Module
-        - [ ] nn.Parameter
-        - [ ] Backward
+        - [x] nn.Parameter
+        - [x] Backward
         - [ ] Dataset
         - [ ] DataLoader
         - [ ] model.save()
