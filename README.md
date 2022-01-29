@@ -57,5 +57,5 @@ Machine_Learning_Loadmap.jpg
     - [ ] Troubleshooting
 
 <h2>
-    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_2.txt">Week 1 memoir</a>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_2.txt">Week 2 memoir</a>
 <h2/>
