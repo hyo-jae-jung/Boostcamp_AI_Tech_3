@@ -26,7 +26,13 @@ Machine_Learning_Loadmap.jpg
         - [ ] Dynamic Typing
         - [ ] Object-Oriented Programming(OOP)
         - [ ] Interpreter
-
+    - [ ] Variables
+        - [ ] Memory
+    - [x] Function and Console IO
+        - [x] Function
+        - [x] Console in/out
+        - [x] Formatting
+        
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
