@@ -1,4 +1,11 @@
-def plus(x,y):
+def plus(x:int,y:int) -> int:
+
+    """[summary]
+
+    Returns:
+        [type]: [description]
+    """    
+
     return x+y
 
 def main():

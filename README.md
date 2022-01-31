@@ -36,10 +36,13 @@ Machine_Learning_Loadmap.jpg
         - [x] Condition
         - [x] Loop
         - [x] Debug
-    - [ ] String and advanced function concept
+    - [x] String and advanced function concept
         - [x] String
-        - [ ] Function2
-        
+        - [x] Call by Object Reference
+        - [x] Function - scoping rule
+        - [x] Recursive Function
+        - [x] Docstring
+        - [x] PEP8
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
