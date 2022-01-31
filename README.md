@@ -43,7 +43,30 @@ Machine_Learning_Loadmap.jpg
         - [x] Recursive Function
         - [x] Docstring
         - [x] PEP8
-
+    - [ ] Python data structure
+        - [x] Stack
+        - [x] Queue
+        - [x] Tuple
+        - [x] Set
+        - [x] Dict
+        - [ ] collections
+            - [x] deque
+            - [ ] OrderedDict
+            - [ ] defaultdict
+            - [ ] Counter
+            - [ ] namedtuple
+    - [ ] Pythonic code
+        - [x] split & join
+        - [x] list comprehension  
+        - [x] enumerate & zip
+        - [x] lambda & map & reduce
+        - [x] generator
+        - [ ] function passing arguments
+            - [x] keyward arguments
+            - [x] default arguments
+            - [x] variable=length asterisk(*args)
+            - [x] keyward-length asterisk(**kwargs)
+            - [ ] unpacking a container
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
