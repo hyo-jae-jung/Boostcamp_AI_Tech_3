@@ -55,18 +55,20 @@ Machine_Learning_Loadmap.jpg
             - [ ] defaultdict
             - [ ] Counter
             - [ ] namedtuple
-    - [ ] Pythonic code
+    - [x] Pythonic code
         - [x] split & join
         - [x] list comprehension  
         - [x] enumerate & zip
         - [x] lambda & map & reduce
         - [x] generator
-        - [ ] function passing arguments
+        - [x] function passing arguments
             - [x] keyward arguments
             - [x] default arguments
-            - [x] variable=length asterisk(*args)
+            - [x] variable-length asterisk(*args)
             - [x] keyward-length asterisk(**kwargs)
-            - [ ] unpacking a container
+            - [x] asterisk(unpacking a container)
+    - [ ] Object-Oriented Programming(OOP)
+        - [ ]
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
