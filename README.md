@@ -68,8 +68,19 @@ Machine_Learning_Loadmap.jpg
             - [x] keyward-length asterisk(**kwargs)
             - [x] asterisk(unpacking a container)
     - [ ] Object-Oriented Programming(OOP)
-        - [ ]
-<h2>
+        - [x] outline
+        - [x] objects in python
+        - [ ] OOP charactoeristics
+            - [x] inheritance
+            - [ ] polymorphism
+            - [x] visibility
+        - [ ] decorate
+            - [x] first-class objects
+            - [x] inner function
+            - [ ] decorator
+
+
+<h2>        
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
 
