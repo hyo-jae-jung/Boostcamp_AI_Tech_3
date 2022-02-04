@@ -82,7 +82,7 @@ Machine_Learning_Loadmap.jpg
         - [x] module
         - [x] package
         - [x] virtual environment
-    - [ ] 
+
 <h2>        
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_1.txt">Week 1 memoir</a>
 <h2>
@@ -115,14 +115,18 @@ Machine_Learning_Loadmap.jpg
     - [ ] Hyperparameter Tuning
     - [ ] Ray
     - [ ] Troubleshooting
-    -
+
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_2.txt">Week 2 memoir</a>
 <h2/>
 
 <h2>Week 3 keyword : Data Visualization</h2>
 
-- [ ] Iris
-- [ ] StudentsPerformance
-- [ ] prices
-- [ ] heart
+- [ ] [Iris](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_Iris.ipynb)
+- [ ] [StudentsPerformance](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_StudentsPerformance.ipynb)
+- [ ] [prices](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_prices.ipynb)
+- [ ] [heart](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_heart.ipynb)
+
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_3.txt">Week 3 memoir</a>
+<h2/>
