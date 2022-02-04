@@ -21,7 +21,7 @@ Machine_Learning_Loadmap.jpg
     - [ ] Convolutional Neural Network(CNN)
     - [ ] Recurrent Neural Network(RNN)
     
-- [ ] Python
+- [ ] [Python](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01_Python.ipynb)
     - [ ] Outline
         - [ ] Dynamic Typing
         - [ ] Object-Oriented Programming(OOP)
