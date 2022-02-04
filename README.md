@@ -121,3 +121,8 @@ Machine_Learning_Loadmap.jpg
 <h2/>
 
 <h2>Week 3 keyword : Data Visualization</h2>
+
+- [ ] Iris
+- [ ] StudentsPerformance
+- [ ] prices
+- [ ] heart
