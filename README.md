@@ -122,7 +122,7 @@ Machine_Learning_Loadmap.jpg
 
 <h2>Week 3 keyword : Data Visualization</h2>
 
-- [ ] [Iris](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_Iris.ipynb)
+- [x] [Iris](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_Iris.ipynb)
 - [ ] [StudentsPerformance](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_StudentsPerformance.ipynb)
 - [ ] [prices](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_prices.ipynb)
 - [ ] [heart](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03_heart.ipynb)
