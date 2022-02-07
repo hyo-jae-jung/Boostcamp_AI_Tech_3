@@ -130,3 +130,5 @@ Machine_Learning_Loadmap.jpg
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_3.txt">Week 3 memoir</a>
 <h2/>
+
+<h2>Week 4 keyword : Deep Learning Basic</h2>
