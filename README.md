@@ -132,3 +132,9 @@ Machine_Learning_Loadmap.jpg
 <h2/>
 
 <h2>Week 4 keyword : Deep Learning Basic</h2>
+
+- [x] Deep Learning Basic
+- [x] Optimization
+- [ ] CNN(Convolutional Neural Network)
+- [ ] RNN(Recurrent Neural Network)
+- [ ] Generative Model

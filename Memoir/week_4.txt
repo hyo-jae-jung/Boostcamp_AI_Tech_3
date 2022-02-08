@@ -1,0 +1,24 @@
+궁금한거
+
+딥러닝은 많은 계산이 필요한 방법인데 high level language 인 python이 보편적으로 사용되고 있다.
+low level language로 계산하면 더 빠를 것 같은데 C나 Rust같은 언어로 하는 딥러닝도 있나요?
+
+Pytorch에서 DataLoader를 활용해서 데이터셋을 계산을 할 수 있게 변환하는데
+어떤 데이터를 DataLoader가 받을 수 있나요? jpg파일을 넣으면 알아서 tensor형식으로 바꿔주나요?
+DataLoader로 변환되기 전 데이터는 어떻게 확인 할 수 있나요? ex) MNIST
+
+"""
+4주차 기본과제 1
+
+a = torch.tensor(1)
+b = torch.tensor(1)
+
+a==b.sum() >>> tensor(True)
+(a==b).sum() >>> tensor(1)
+
+왜 이런가요?
+"""
+
+[프로젝트 아이디어]
+
+가위바위보 무조건 이기는 AI
