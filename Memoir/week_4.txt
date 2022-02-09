@@ -7,6 +7,10 @@ Pytorch에서 DataLoader를 활용해서 데이터셋을 계산을 할 수 있�
 어떤 데이터를 DataLoader가 받을 수 있나요? jpg파일을 넣으면 알아서 tensor형식으로 바꿔주나요?
 DataLoader로 변환되기 전 데이터는 어떻게 확인 할 수 있나요? ex) MNIST
 
+--> 일단 torchvision datasets에 있는 MNIST는 data, targets 메소드로 확인 할 수 있는데
+    dataset을 만드는 사람이 이런 명령도 만들어서 데이터 사용자가 편하게 사용하도록 도와줄 수 있는 것 같다.
+    dir함수를 사용하면 클래스 안의 메소드들을 확인 할 수 있다.(자주 안쓰니까 계속 까먹게 되네)
+
 """
 4주차 기본과제 1
 
@@ -17,7 +21,10 @@ a==b.sum() >>> tensor(True)
 (a==b).sum() >>> tensor(1)
 
 왜 이런가요?
+--> 텐서가 아니고 튜플의 성질같음.
 """
+
+
 
 [프로젝트 아이디어]
 
