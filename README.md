@@ -138,3 +138,7 @@ Machine_Learning_Loadmap.jpg
 - [ ] CNN(Convolutional Neural Network)
 - [ ] RNN(Recurrent Neural Network)
 - [ ] Generative Model
+
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_4.txt">Week 4 memoir</a>
+<h2/>
