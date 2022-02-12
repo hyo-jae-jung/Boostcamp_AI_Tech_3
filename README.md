@@ -135,7 +135,7 @@ Machine_Learning_Loadmap.jpg
 
 - [x] Deep Learning Basic
 - [x] Optimization
-- [ ] CNN(Convolutional Neural Network)
+- [x] CNN(Convolutional Neural Network)
 - [ ] RNN(Recurrent Neural Network)
 - [ ] Generative Model
 
