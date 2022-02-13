@@ -15,10 +15,10 @@ Machine_Learning_Loadmap.jpg
     - [x] Linear regression with GD
     - [x] mini batch Sampling Gradient Descent(mini batch SGD)
     - [x] Deep Learning
-    - [ ] Monte Carlo Sampling
+    - [x] Monte Carlo Sampling
     - [x] Maximum Likelihood Estimator(MLE)
     - [ ] Bayesian Theory
-    - [ ] Convolutional Neural Network(CNN)
+    - [x] Convolutional Neural Network(CNN)
     - [ ] Recurrent Neural Network(RNN)
     
 - [ ] [Python](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01_Python.ipynb)
