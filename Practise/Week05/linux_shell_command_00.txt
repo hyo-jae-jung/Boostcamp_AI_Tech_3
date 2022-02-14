@@ -59,8 +59,70 @@ vim, vi : 터미널 환경에서 파일을 생성, 편집하는 도구(편집기
 
     last line mode에서 set number와 set nonumber로 줄번호를 표시, 제거 할 수 있다.
 
+bash : bash shell script가 실행됨
+
+    * 자세한 내용은 구글링을 해봐야 할 듯
+
+sudo : 최고 권한 유저로 프로그램을 실행
+
+    * 커맨드 앞에 sudo 붙이면 다 뚤리는데 조심해서 사용해야함
+
+cp : 파일 또는 폴더 복사하기(Copy)
+
+    cp [존재하는 파일이름] [복사할 파일이름]
+
+mv : 파일, 폴더 이동하기 또는 이름 바꿀 때도 활용(Move)
+
+    mv [기존 파일 주소 및 이름] [새로운 파일 주소 및 새로운 이름]
+
+cat : 특정 파일 내용 출력(concatenate)
+
+    1. 여러개의 파일을 한번에 출력
+    cat file1 file2 file3
+
+    2. 여러개의 파일을 합쳐서 하나의 파일을 만듬. 존재하는 파일에 합치면 기존 내용이 삭제된다.
+    cat file1 file2 file3 > file4
+
+    3. 내용 덧붙이기
+    cat file1 >> file2 # file2의 내용이 사라지지 않고 file1의 내용이 추가된다.
+
+    4. 새로운 파일 생성
+    cat > file5
+    내용입력
+    ctrl+d 내용입력 종료 후 파일 생성
+
+clear : 터미널창을 깨끗하게 해준다.
+
+history : 최근에 입력한 쉘 커맨드 history를 출력. !+숫자 로 해당 위치의 커맨드 다시 활용 가능
+
+find : 파일 및 디렉토리를 검색할 때 사용
+
+    find . -name "file" : 현재 폴더에서 file이란 이름을 가지는 파일 및 디렉토리 검색
+    * 굉장히 많은 검색규칙이 있다.
+        . or / : 현재 디렉토리 or root 디렉토리를
+        -name : 파일 이름과 관련된
+        "*file" : 파일이름 뒤에 file이 있는 파일
+
+        등등 매우 많다. 검색하면 나옴
+
+export : 환경 변수 설정
+
+    export water="물"
+    echo $water
+    >>>물
+
+    export로 설정한 환경변수는 터미널이 꺼지면 사라진다.
+    매번 쉘을 실행할 때마다 환경변수를 저장하고 싶으면 .bashrc, .zshrc에 저장하면 된다.
+    터미널 재실행 없이 바로 적용된 환경변수를 사용하려면 source ~/.zshrc를 사용하면 된다.
+
+alias : 기본 명령어른 간단히 줄일 수 있는 것
+
+    alias를 입력해보면 ls -lh가 ll로 등록된 것을 확인 할 수 있다.
+    등록방법은 alias [alias명]] = [기본 명령어]
+    삭제방법은 unalias [alias명]]
+
+wget : 
 
 
-
-
-
+    
+    
