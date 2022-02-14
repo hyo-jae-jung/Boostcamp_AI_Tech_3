@@ -1,4 +1,4 @@
-Shell Command
+Vary Important Shell Command [man, mkdir, ls, pwd, cd, echo, vi, bash, sudo, cp, mv, cat, clear, history, find, export, alias, wget]
 
 man : 쉘 커맨드의 매뉴얼 문서를 보고 싶은 경우
 ex) man python, man pip
@@ -121,7 +121,7 @@ alias : 기본 명령어른 간단히 줄일 수 있는 것
     등록방법은 alias [alias명]] = [기본 명령어]
     삭제방법은 unalias [alias명]]
 
-wget : 
+wget : Web Get의 약어로 웹 상의 파일ㅇ르 다운로드 받을 때 사용하는 명령어로 자세한 건 구글링
 
 
     

@@ -1,1 +1,1 @@
-echo -e "hi\nhello\nhi"
+hi
