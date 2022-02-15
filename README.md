@@ -17,7 +17,7 @@ Machine_Learning_Loadmap.jpg
     - [x] Deep Learning
     - [x] Monte Carlo Sampling
     - [x] Maximum Likelihood Estimator(MLE)
-    - [ ] Bayesian Theory
+    - [x] Bayesian Theory
     - [x] Convolutional Neural Network(CNN)
     - [ ] Recurrent Neural Network(RNN)
     
@@ -142,3 +142,10 @@ Machine_Learning_Loadmap.jpg
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_4.txt">Week 4 memoir</a>
 <h2/>
+
+<h2>Week 5 keyword : AI Service Development Basic</h2>
+
+- [ ] Machine Lreaning Project Life Cycle
+- [x] Linux & Shell Command
+- [ ] Docker
+- [ ] MLflow
