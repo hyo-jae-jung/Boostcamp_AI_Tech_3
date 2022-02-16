@@ -147,5 +147,5 @@ Machine_Learning_Loadmap.jpg
 
 - [ ] Machine Lreaning Project Life Cycle
 - [x] Linux & Shell Command
-- [ ] Docker
+- [x]] Docker
 - [ ] MLflow

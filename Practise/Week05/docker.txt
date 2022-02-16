@@ -1,3 +1,23 @@
-[docker]
+docker
 
+추가적인 학습에 앞서서 지금까지 이해한 도커를 정리하면
 
+도커는 개발 및 서비스 환경을 맞춰주는 도구이다.
+개발환경을 만들기 위해 가상환경을 사용하는 목적과 비슷하지만 다른데
+virtualenv는 python이라는 언어에 종속된 가상환경 툴이고(pipenv, virtualenvwrapper 등이 있음)
+docker는 linux라는 os에 종속된 환경설정 툴이라고 할 수 있다.
+
+docker에서 중요한 포인트는 image와 container인데
+
+image는 사용하고자 하는 program과 관련 library를 가지고 있는 파일로 변경불가한 상태
+container는 image를 실행시킬 독립적으로 캡슐화된 환경으로 container 안에서 추가적인 library를 설치 할 수 있다.
+layer는 image에 추가적으로 필요한 라이브러리를 붙일 수 있게 도와주는 것(?)
+
+docker ps : 현재 도커 프로세스 상태. 실행된 컨테이너 목록을 보여준다.
+※ man 커멘드가 유효해서 man docker ps를 입력하면 메뉴얼이 나온다. -a 에 대한 설명도 여기 있다.
+docker images : 가지고 있는 이미지 목록
+docker search [image] : 찾고자 하는 이미지를 검색한다.
+docker pull [image] : 이미지를 설치한다.
+docker run : 컨테이너를 만들어서 이미지를 실행시키는 것 같은데 학습중
+
+* 강의는 이정도 이해를 요구하는 것 같음. 일단 여기까지
