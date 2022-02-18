@@ -149,3 +149,7 @@ Machine_Learning_Loadmap.jpg
 - [x] Linux & Shell Command
 - [x] Docker
 - [ ] MLflow
+
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_5.txt">Week 5 memoir</a>
+<h2/>

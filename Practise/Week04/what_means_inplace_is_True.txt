@@ -1,0 +1,18 @@
+https://pytorch.org/docs/stable/generated/torch.nn.ReLU.html#torch.nn.ReLU
+https://discuss.pytorch.org/t/whats-the-difference-between-nn-relu-and-nn-relu-inplace-true/948
+https://discuss.pytorch.org/t/guidelines-for-when-and-why-one-should-set-inplace-true/50923
+
+공식적으로 inplace=True를 권장하진 않는다. 디폴트도 False 하지만 공식 예제에서는 사용한다.
+원본데이터를 날리고 계산결과만 저장하는 기능 같다.
+x = nn.ReLU(x) 이런식으로 코딩하는거랑 같다. 하지만 지금까지 이렇게 잘 사용해왔는데 
+
+그럼 autograd는 backpropagation을 어떻게 하는거? 
+https://pytorch.org/docs/master/notes/autograd.html#in-place-operations-on-variables
+
+아직 다 읽을 엄두는 안 남
+
+그리고 공식적으로 왜 권장하지 않는지 원본데이터를 날리지 않는게 왜 좋은지 궁금함.(당연히 메모리 여유있으면 데이터는 가지고 있는데 좋은데 딥러닝을 계산하는 관점에서 뭐가 좋은지 궁금함)
+
+멘토링에서 김종하 멘토는 코딩 스타일의 차이고 본인은 사용하지 않는다고 함.
+
+일단 이 문제는 값을 저장하지 않고 어떻게 backpropagation을 하는가?에 대한 문제로 바뀜.. 알아볼 생각은 아직 없음
