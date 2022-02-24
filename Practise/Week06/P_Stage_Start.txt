@@ -1,0 +1,19 @@
+데이터분석는 목적이 중요하기 때문에 overview를 확인해야 한다.
+그리고 분석을 하기 위한 문제를 정의해야 한다.
+
+Machine Learning Pipeline
+
+Domain Understanding -> Data Mining -> Data Analysis
+-> Data Processing -> Modeling -> Training -> Deploy
+
+
+
+EDA(Exploratory Data Analysis) -> "데이터를 이해하기 위한 노력"
+
+다양한 방법으로 자유롭게 생각하고 다양한 도구로 자유롭게 출력해보는게 학습에 중요
+데이터를 출력하는 것 뿐만 아니라 견해도
+
+
+Classification
+
+input data(image,text,sound, etc)에 대한 이해가 필요하다

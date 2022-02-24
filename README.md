@@ -153,3 +153,15 @@ Machine_Learning_Loadmap.jpg
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_5.txt">Week 5 memoir</a>
 <h2/>
+
+<h2>Week 6 keyword : Classification</h2>
+
+- [x] P Stage Start!
+- [ ] Data Feeding
+- [ ] Model
+- [ ] Training & Inference
+- [ ] More...
+
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_6.txt">Week 6 memoir</a>
+<h2/>
