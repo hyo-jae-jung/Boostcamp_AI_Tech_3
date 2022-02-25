@@ -161,6 +161,7 @@ Machine_Learning_Loadmap.jpg
 - [ ] Model
 - [ ] Training & Inference
 - [ ] More...
+- [x] Why image data need to normalization?
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_6.txt">Week 6 memoir</a>

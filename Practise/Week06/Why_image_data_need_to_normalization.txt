@@ -1,0 +1,50 @@
+제목 : 이미지 데이터를 왜 정규화 해야하나요?
+
+서론
+이미지 분석에 transforms을 보면 항상 ToTensor 메소드가 사용되는데
+이미지를 숫자로 바뀌주는 것 뿐만아니라 정규화도 같이 이루어진다. 
+왜 여러 기능을 합쳐놨는지도 궁금하면서 정규화 되지 않은 상태로 학습을
+시켜보고 싶었다. 데이터 타입을 image,array,tensor로 다양하게 변경하면서
+dataset적용에 다양한 오류를 겪었지만 결국 학습을 시켰다.
+
+
+# 이미지를 정규화하지 않고 기존 숫자로 사용한 결과
+epoch:[0] loss:[3.293] train_accr:[0.145] test_accr:[0.146].
+epoch:[1] loss:[2.327] train_accr:[0.145] test_accr:[0.146].
+epoch:[2] loss:[2.402] train_accr:[0.145] test_accr:[0.146].
+epoch:[3] loss:[2.321] train_accr:[0.145] test_accr:[0.146].
+
+
+# 동일한 모델을 정규화만 시켰을 때 학습결과
+epoch:[0] loss:[3.809] train_accr:[0.408] test_accr:[0.393].
+epoch:[1] loss:[1.931] train_accr:[0.536] test_accr:[0.503].
+epoch:[2] loss:[1.656] train_accr:[0.617] test_accr:[0.558].
+epoch:[3] loss:[1.416] train_accr:[0.670] test_accr:[0.591].
+epoch:[4] loss:[1.199] train_accr:[0.722] test_accr:[0.612].
+epoch:[5] loss:[1.020] train_accr:[0.795] test_accr:[0.654].
+epoch:[6] loss:[0.876] train_accr:[0.839] test_accr:[0.670].
+epoch:[7] loss:[0.742] train_accr:[0.860] test_accr:[0.665].
+epoch:[8] loss:[0.631] train_accr:[0.926] test_accr:[0.693].
+epoch:[9] loss:[0.542] train_accr:[0.934] test_accr:[0.677].
+
+
+학습이 잘 안된다. 왜 학습이 안되는 걸까?
+ -> 스케일링(정규화)를 안 해서
+ --> 스케일링을 하면 왜 학습이 잘 되나?
+ ---> 속성이 다른 숫자들의 차이가 크면 속성별 간격이 달라져서 lreaning rate를 보수적으로 설정하게 되고 결국 학습속도가 느려진다.
+      그래서 숫자 자체만 보는 머신러닝 알고리즘에게는 개별속성에 대한 숫자크기는 무의미 하기 때문에 scaling을 시켜주면
+      속성간의 간격이 같아져서 lreaning rate도 정하기 쉬워지고 학습이 더 잘된다.
+
+
+결론
+이론적으로 정규화를 시키지 않은 모델도 학습을 시킬 수 있지만
+lreaning rate를 찾기 힘들 뿐만아니라 시간도 오래걸려 비효율적이다.
+이런 문제들을 scaling이 해결해준다.
+다만 모든 문제를 해결해주는 만능키는 아니다.
+
+사족
+이제 망설임 없이 transforms.ToTensor를 사용하겠다.
+하지만 다양한 스케일링 방법이 있다는 걸 염두해두자.
+
+참조
+https://towardsdatascience.com/all-about-feature-scaling-bcc0ad75cb35
