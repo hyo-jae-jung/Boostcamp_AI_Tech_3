@@ -159,7 +159,7 @@ Machine_Learning_Loadmap.jpg
 - [x] P Stage Start!
 - [x] Data Feeding
 - [x] Model
-- [ ] Training & Inference
+- [x] Training & Inference 
 - [ ] More...
 - [x] [Why image data need to normalization?](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week06/Why_image_data_need_to_normalization.txt)
 
