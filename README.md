@@ -157,11 +157,11 @@ Machine_Learning_Loadmap.jpg
 <h2>Week 6 keyword : Classification</h2>
 
 - [x] P Stage Start!
-- [ ] Data Feeding
-- [ ] Model
+- [x] Data Feeding
+- [x] Model
 - [ ] Training & Inference
 - [ ] More...
-- [x] Why image data need to normalization?
+- [x] [Why image data need to normalization?](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week06/Why_image_data_need_to_normalization.txt)
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_6.txt">Week 6 memoir</a>
