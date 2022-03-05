@@ -1,0 +1,4 @@
+사용한 모델명(resnet, vgg 등), 메소드명(transforms.GraysScale, Albumenetations.~ 등등) 공동으로 공유하는 파일 만들기
+seed를 고정시키기
+baseline일치시키기
+team wandb로 묶기

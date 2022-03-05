@@ -168,5 +168,10 @@ Machine_Learning_Loadmap.jpg
 <h2/>
 
 
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_7.txt">Week 7 memoir</a>
+<h2/>
+
+
 
   
