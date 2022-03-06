@@ -6,7 +6,7 @@ Machine_Learning_Loadmap.jpg
 
 <h2>Week 1 keyword : AI Math & Python</h2>
 
-- [ ] [AI Math](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01/Week01_AI_Math.ipynb)
+- [ ] [AI Math](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week01/Week01_AI_Math.ipynb)
     - [x] Norm
     - [x] Inner Product
     - [x] Array
@@ -21,7 +21,7 @@ Machine_Learning_Loadmap.jpg
     - [x] Convolutional Neural Network(CNN)
     - [ ] Recurrent Neural Network(RNN)
     
-- [ ] [Python](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week01/Week01_Python.ipynb)
+- [ ] [Python](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week01/Week01_Python.ipynb)
     - [ ] Outline
         - [ ] Dynamic Typing
         - [ ] Object-Oriented Programming(OOP)
@@ -90,14 +90,14 @@ Machine_Learning_Loadmap.jpg
 <h2>Week 2 keyword : PyTorch</h2>
 
 - [ ] Pytorch
-    - [x] [Operation](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week02/Week02_Operation.ipynb)
+    - [x] [Operation](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week02/Week02_Operation.ipynb)
         - [x] Tensor
         - [x] view vs reshape
         - [x] squeeze, unsqueeze
         - [x] dot, mm, matmul
         - [x] nn.functional
         - [x] AutoGrad
-    - [ ] [torch.nn.Module](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week02/Week02_Module.ipynb)
+    - [ ] [torch.nn.Module](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week02/Week02_Module.ipynb)
         - [x] nn.Parameter
         - [x] Backward
         - [ ] Dataset
@@ -122,10 +122,10 @@ Machine_Learning_Loadmap.jpg
 
 <h2>Week 3 keyword : Data Visualization</h2>
 
-- [x] [Iris](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Week03/Practise/Week03_Iris.ipynb)
-- [ ] [StudentsPerformance](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03/Week03_StudentsPerformance.ipynb)
-- [ ] [prices](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03/Week03_prices.ipynb)
-- [ ] [heart](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week03/Week03_heart.ipynb)
+- [x] [Iris](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Week03/level1/Week03_Iris.ipynb)
+- [ ] [StudentsPerformance](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week03/Week03_StudentsPerformance.ipynb)
+- [ ] [prices](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week03/Week03_prices.ipynb)
+- [ ] [heart](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week03/Week03_heart.ipynb)
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_3.txt">Week 3 memoir</a>
@@ -161,7 +161,7 @@ Machine_Learning_Loadmap.jpg
 - [x] Model
 - [x] Training & Inference 
 - [ ] More...
-- [x] [Why image data need to normalization?](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Practise/Week06/Why_image_data_need_to_normalization.txt)
+- [x] [Why image data need to normalization?](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/level1/Week06/Why_image_data_need_to_normalization.txt)
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_6.txt">Week 6 memoir</a>
