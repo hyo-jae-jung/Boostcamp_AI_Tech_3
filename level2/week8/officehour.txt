@@ -1,0 +1,16 @@
+resnet의 포인트는 layer가 많은데 에러를 줄였다는 거
+
+identity mapping 최초는 아님
+
+
+
+torchvision 대신 timm,lucidlain이 많이 쓰인다고 함. 뭔지 모르겠는데 검색 필요
+
+huggingface가 기본적
+
+augmentation을 할 때 train에만 적용하고 validation에서는 제거해야함.
+
+사진크기를 feature map이라고 부르네
+
+***skip connection***
+***CNN구조는 channel에 정보를 encoding***

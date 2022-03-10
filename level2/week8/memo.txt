@@ -41,3 +41,61 @@ RandAugmentation
 
 3)--------------------------------------
 
+4)--------------------------------------
+semantic segmentation
+
+영상단위가 아니라 픽셀단위!
+
+같은 영상에서 같은 클래스를 구분하지는 않고 하나로 인식
+구분하는건 instance segmentation에서 다룸
+
+의료, 무인자동차
+
+fully convolutional networks(FCN)
+alexnet은 입력 dimension과 출력 dimension이 다르면 안 좋은데
+FCN은 달라도 됨.
+
+1x1 conv 가 key point
+
+upsampling??? -> reverse downsampling 
+
+[U-Net]
+skip connection -> residual block 만드는 작업
+
+U-Net에서는 downsample과 upsample이 빈번히 일어나는데 
+downsampling에서 영상 사이즈가 홀수면 나머지를 버리는데
+upsampling 시 기존 영상 사이즈의 복원이 안되기 때문에
+홀수 사이즈가 나오지 않도록 주의해야 한다.
+
+[DeepLab]
+CRFs
+Attous Convolution
+Dilated convolution
+
+5)--------------------------------------------
+Object detection
+
+Semantic segmentation에서 진보된게
+Instance segmentation, Panoptic segmentation인데
+같은 class여도 instance의 구분이 가능해짐
+
+bounding box는 좌표와 클래스 정보로 구성
+classification + Box localization
+
+Selective search
+
+first object detection : R-CNN
+
+Anchor boxes
+
+챙겨야 될 키워드가 굉장히 많다 5강 집중하기
+
+6-1)-----------------------------------------
+
+Guided Grad-CAM
+
+6-2)----------------------------------------
+
+Autograd
+
+hook:register_forward_hook
