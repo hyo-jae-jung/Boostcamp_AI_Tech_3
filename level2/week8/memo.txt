@@ -5,25 +5,49 @@ Computer Vision
 
 1)-------------------------------------
 
-ai
-사람의 지능을 컴퓨터 시스템으로 구현하는건데
-시각, 스피치, 결정, 번역을 포함
+1. Course overview
 
-지능은 포괄적이라 레퍼런스를 잡을 필요가 있음 -> 인간, 유아기의 인간의 성장은 분석
+ai는 사람의 지능을 컴퓨터 시스템으로 구현하는건데 시각, 스피치, 결정, 번역을 포함한다.
+Computer Vision에서는 시각인지(visual perception)를 다룬다.
 
-세상과 상호작용으로 학습함
+지능은 포괄적이라 레퍼런스를 잡을 필요가 있는데 유아기의 인간의 성장을 기준으로 분석
+인간은 5감으로 세상과 상호작용으로 학습하고 오감 뿐만아니라 표정, 스킨쉽, 말과 같은 social 감각도 학습한다.
 
-5감으로
+75%의 정보를 눈으로 얻고, 뇌는 시각정보를 처리하는데 50%의 리소스를 사용하기 때문에
+지능에서 지각능력의 획득이 중요함
 
-지능은 지각능력의 획득이 중요함
+그래서 Computer Vision(CV)이 뭐냐면
+사진이나 비디오 등의 영상 정보로 장면의 본질을 파악하는 기술인데
+Computer Graphics(CG)와 반대되는 개념이기 때문이 inverse graphics라고도 한다.
 
-입력과 출력
+CV는 image를 hugh-level description로 Inverse rendering
+CG는 hugh-level description을 image로 rendering
 
-오감 뿐만아니라 social 감갇이 있음. 표정 스킨쉽 말
+•Visual perception & intelligence 
+o Input : visual data (image or video) 
 
-사람의 지각능력에는 편향이 있음 데쳐 인벌스
+•Class of visual perception 
+o Color perception 
+○ Motion perception 
+○ 3D perception 
+○ Semantic-level perception 
+○ Social perception (emotion perception) 
+○ Visuomotor perception, etc. 
 
-cnn : fully connected layer->locally connected layer
+•Also, computer vision includes understanding human visual perception capability
+
+사람의 지각능력에는 편향이 있음. [Thatcher effect](https://en.wikipedia.org/wiki/Thatcher_effect)
+컴퓨터는 이런 편향이 없이 이미지를 분석 할 수 있지만 결국 레이블은 사람이 만들기 때문에
+해당 내용을 이해 및 인지하는 게 중요해보인다.
+
+2. Image classification
+
+fully conneted layer의 문제는 과적합이다.
+이미지를 학습시켜도 cropped된 이미지로 테스트를 하면 이해하지 못한다. 이걸 해결한게 CNN이다.
+
+cnn : fully connected layer -> locally connected layer
+
+
 
 AlexNet
 vgg
