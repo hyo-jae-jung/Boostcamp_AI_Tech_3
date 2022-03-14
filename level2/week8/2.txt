@@ -27,6 +27,12 @@ KL divergence : 정보량 차이
     Labeled data가 없어도 freeze된 teacher model과 student model에 동일한 input data를 입력해서 나온 loss의 차이인 KL div. Loss를 구해서 backpropagation으로 학습을 시킬 수 있다.
     Labeled data가 있으면 student model에 추가로 label(ground truth)과 비교해서 student loss를 구하고 distillation loss와 wight sum을 해서 backpropagation으로 학습을 시킬 수 있다.
 
+- Learning without Forgetting
+
+    목적은 기존 정보와 새로운 정보에 모두 잘 맞는 모델을 학습시키기
+    distillation과 비슷한데 teacher와 student로 모델을 나누는게 아니라
+    original backbon을 old final layer와 new final layer로 branch를 나눠서 학습시킨다.
+
 3. Leveraging unlabeled dataset for training
 
 - Semi-supervised learning
@@ -45,3 +51,5 @@ Brief overview of self-training
     3. Train student model with both lableled and unlabeled data with augmentation 
     4. Set the student model as a new teacher, and set new model (bigger) as a new student 
     5. Repeat 2~4 with new teacher/student models
+
+

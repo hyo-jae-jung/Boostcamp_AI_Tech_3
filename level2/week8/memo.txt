@@ -114,7 +114,7 @@ Brief overview of self-training
 3)--------------------------------------
 
 4)--------------------------------------
-semantic segmentation
+1. Semantic segmentation
 
 영상단위가 아니라 픽셀단위!
 
@@ -122,6 +122,10 @@ semantic segmentation
 구분하는건 instance segmentation에서 다룸
 
 의료, 무인자동차
+
+
+
+
 
 fully convolutional networks(FCN)
 alexnet은 입력 dimension과 출력 dimension이 다르면 안 좋은데

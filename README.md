@@ -154,7 +154,7 @@ Machine_Learning_Loadmap.jpg
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_5.txt">Week 5 memoir</a>
 <h2/>
 
-<h2>Week 6 keyword : Classification</h2>
+<h2>Week 6,7 keyword : Classification</h2>
 
 - [x] P Stage Start!
 - [x] Data Feeding
@@ -170,6 +170,14 @@ Machine_Learning_Loadmap.jpg
 
 <h2>
     <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_7.txt">Week 7 memoir</a>
+<h2/>
+
+<h2>Week 8 keyword : Classification, Semantic Segmemtation, Object Detection, CNN Visualization</h2>
+
+[Directory](https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/tree/master/level2/week8)
+
+<h2>
+    <a href="https://github.com/hyo-jae-jung/Boostcamp_AI_Tech_3/blob/master/Memoir/week_8.txt">Week 8 memoir</a>
 <h2/>
 
 
