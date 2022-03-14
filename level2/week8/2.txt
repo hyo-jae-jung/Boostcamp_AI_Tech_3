@@ -1,0 +1,47 @@
+1. Data augmentation
+편향된 샘플 데이터를 실제 데이터에 다가가기 위해 사용하는 방법
+
+밝기변환
+crop
+affine transformation
+cutmix
+RandAugmentation
+등등 더 많음
+
+2. Leveraging Pre-trained information
+
+- Transfor learning = fine-tuning
+    학습이 돼 있는 모델을 사용하려는 데이터셋에 맞춰서 사용하는 방법
+    bottleneck : 사용하는 모델에 데이터를 통과시켜서 fc layer전에 나오는 features를 저장하고 이걸로 새로운 fc layer를 학습시키는 방법.
+                 연산을 최소화 할 수 있는 장점이 있고 augmentation은 어려워 진다(왜? -> 이미지 하나로 bottleneck feature를 뽑아서 이미지를 무작위로 변형하여 여러개 bottleneck feature를 뽑으면 augmentation 효과 가능)
+    bottleneck으로 학습시킨 fc layer를 학습이 된 모델에 붙이고 마지막 conv layer와 fc layer를 제외한 모든 layer를 freeze시켜서 학습시킨다.(하나의 예시임)
+    추가적인 방법들은 해당 블로그에서 확인
+    https://inhovation97.tistory.com/31
+
+- Knowledge distillation
+
+Entropy : 정보를 표현하는데 필요한 최소 자원량
+Cross Entropy : 특정 전략을 쓸 때 예상되는 질문개수에 대한 기댓값
+KL divergence : 정보량 차이
+
+    Labeled data가 없어도 freeze된 teacher model과 student model에 동일한 input data를 입력해서 나온 loss의 차이인 KL div. Loss를 구해서 backpropagation으로 학습을 시킬 수 있다.
+    Labeled data가 있으면 student model에 추가로 label(ground truth)과 비교해서 student loss를 구하고 distillation loss와 wight sum을 해서 backpropagation으로 학습을 시킬 수 있다.
+
+3. Leveraging unlabeled dataset for training
+
+- Semi-supervised learning
+    label이 있는 작은 데이터셋으로 model을 학습시키고
+    학습시킨 모델로 label이 없는 큰 데이터셋의 label을 만들어서
+    작은 데이터셋와 큰 데이터셋을 합쳐서 기존 model or new model을 학습시킨다.
+
+Self-training
+    Augmentation + Teacher-Student networks + semi-supervised learning
+    매우 성능이 좋은 모델
+
+Brief overview of self-training
+
+    1. Train initial teacher model with labeled data 
+    2. Pseudo-label unlabeled data using teacher model 
+    3. Train student model with both lableled and unlabeled data with augmentation 
+    4. Set the student model as a new teacher, and set new model (bigger) as a new student 
+    5. Repeat 2~4 with new teacher/student models
