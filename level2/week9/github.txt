@@ -1,0 +1,69 @@
+이고잉의 깃허브1 (3/15)
+
+지식지도 서말 - https://seomal.com/map/1
+강의자료 - https://bit.ly/gitfromhell
+
+리눅스 창시자가 만듬. 리눅스 토발츠
+
+git 소개말
+"Information manager from hell."
+
+- github repository에서 시계모양 클릭하면 업로드별 코드가 있음
+- extensions에서 git graph를 설치하면 git의 hitory를 그래프 형식으로 볼 수 있고, 어느정도 핸들링도 됨!
+- stage area : commit 전 상태. CLI에 add . 입력하면 stage area로 이동하는 거!! work directory -> stage area -> local git repository -> 원격저장소(github, origin)
+- backup은 멀수록 좋다
+- origin은 원격저장소의 이름인데 기본값 같은 이름이고 변경을 할 수 있다. 하나의 git을 다른 원격 저장소에 push를 할 수 있음!
+- 4세대 버전관리 시스템의 핵심. 원격과 로컬에 버전 정보가 모두 있음. git!
+- source control(소스제어)에서 initialize repository(레포 초기화) 이게 git init
+- snipaste.com 작업창 관리하는 프로그램 인 것 같은데 search가 필요
+- fetch를 auto로 사용 할 수 있음. 난 안 씀.
+- fetch는 원격저장소에 업데이트 된 내용을 로컬의 브랜치와 비교해서 확인 할 수 있게 도와줌
+- 이후 pull을 하면 덮어씌움
+- 충돌이 나면 충돌 내용을 출력하는데 수정 후 merge하면 push가 가능해진다.
+- pull = fetch + merge
+- mergetool : merge를 관리하는 프로그램인데 search가 필요
+- git에서 충돌은 three way merge로 일어남.
+- two way merge는 다르면 무조건 충돌
+- three way merge는 부모 브랜치에서 변경이 일어난 부분을 수정해주고 둘 다 변경되면 충돌. 많은 부분을 자동으로 수정해줌. git이 3 way merge 방식임
+
+(빈번히 사용하게 될 키워드 같음)
+pull
+merge
+rebase
+revert
+chery-pich
+
+이런 작업을 할 때 충돌이 일어남. 보통 브랜치 작업 중간은 안보고 끝에 있는 작업 기준으로 merge를 하는데
+rebase는 중간 작업을 체크하는 것 같음. 일단 패스
+
+head는 워킹 디렉토리가 어떤 버전과 같은지 가리킨다.
+
+마스터는 마지막 커밋을 가리킨다.
+해드는 현재 커밋을 가리킨다.
+
+이전 버전의 커밋을 어떻게 아냐? head가 가리키고 있는 commit id를 이전 버전으로 인식
+
+git log --oneline
+git log --oneline --all
+git log --oneline --all --graph
+(git log를 간단하게 보여줌)
+
+git checkout master
+git checkout [commit id]
+(master가 아니라 commit id로 checkout을 하면 head가 master와 detached 됨)
+
+- git은 각각의 버전에 snapshot을 가지고 있다.
+- checkout은 head를 옮긴다.
+- detached head state
+
+git에서는 detached head를 경계함. 날라 갈 수 있어서.
+하지만 새로운 branch를 만들어서 작업을 새롭게 이어나가게 할 수도 있음.
+
+
+
+
+
+
+
+
+5/6

@@ -4,4 +4,4 @@ question
 
 2. self-training에서 new student model를 점점 더 키워서 사용한다는데
     여기서 모델이 더 커진다는 의미가 무엇인가요? 더 많은 parameter를 가지게 세팅을 한다는 것인가요?
-
+    

@@ -49,7 +49,7 @@ Degradation problem
     효과를 봤던 방법들을 모두 적용. 효과가 나타나는 부분들이 다른데 그걸 조절
 
     - Deformable convolution
-    conv의 규격을 깨서 frame이 아니라 object의 모양을 찾을 수 있는 방법인데 조사가 더 필요
+    conv의 규격을 깨서 bounding box가 아니라 object의 모양을 찾을 수 있는 방법인데 조사가 더 필요
 
 
 3. Summary of image classification
