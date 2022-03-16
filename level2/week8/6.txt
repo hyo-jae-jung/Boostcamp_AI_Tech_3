@@ -1,0 +1,42 @@
+CNN Visualization
+
+1. Visualizing CNN
+
+    디버깅 할 수 있는 단서를 찾는 방법
+
+    conv를 1번 통과한 filter와 image를 시각화해서 어느정도 학습 방법을 이해하는데 도움을 받을 수 있는데
+    더 깊은 layers의 시각화는 못하는 이유는 타원이 높아져서 구현하기도 힘들뿐더러 구현해도 이해를 못하기 때문이다.
+    
+2. Analysis of model behaviors
+
+    Nearest neighoirs(NN)
+    t-SNE : 고차원 데이터를 저차원으로 표현에서 구분을 시각적으로 확인 할 수 있도록 도와줌
+
+    Activation investigation 1,2,3 이 있는데 어려움..
+
+
+3. Model decision explanation
+
+    Saliency test1
+    - Occlusion map : 이미지를 패치로 가린 다음 예측확률을 측정해서 예측율에 따라 중요 부위를 판단하는 방법
+    Saliency test2
+    - via Backpropagation : 클래스 구분에 결정적 영향을 미친 부분에 밝기를 조절
+        backpropagation을 초기 노드까지 해서 그 값을 시각화
+
+    Class activation mapping(CAM)
+
+    Guided Grad-CAM
+
+6-2)----------------------------------------
+
+Saliency를 하려면 forward & backward가 돼야하는데 핵심 기술이 Autograd
+
+hook
+
+hooking은 프로그래밍에서 function call을 할 때 중간 메시지를 낚아채는 용도로 사용함
+
+딥러닝에서
+hook method가 하는 일은 
+hook이 걸린 layer가 동작 할 시점의(forward, backward, forward_pre, backward_pre) 정보를
+핸들링 할 수 있게 도와주는 method인데 이미지로 디버깅을 하기 위해서 계산 과정 중간 값을 hooking해서
+Visualizing 하는 용도로 사용된다.

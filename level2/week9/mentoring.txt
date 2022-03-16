@@ -1,10 +1,16 @@
-question
+질문입니다!
 
-1. hook
+1. hook으로 학습과정 중간에서 무엇을 얻을 수 있나 궁금했었는데 질문을 준비하려고 강의를 다시보니 강의 궁금했던 내용들이 다 나왔습니다.
 
-2. self-training에서 new student model를 점점 더 키워서 사용한다는데
-    여기서 모델이 더 커진다는 의미가 무엇인가요? 더 많은 parameter를 가지게 세팅을 한다는 것인가요?
-    결국 질문이 두 개 인데 모델이 크다는 의미와
-    self-training에서 모델을 키우는 의미?와 어떻게 키우는지?
-    
-    
+hooking은 프로그래밍에서 function call을 할 때 중간 메시지를 낚아채는 용도로 사용함
+
+딥러닝에서 hook method가 하는 일은 
+hook이 걸린 layer가 동작 할 시점의(forward, backward, forward_pre, backward_pre) 정보를
+핸들링 할 수 있게 도와주는데 이미지로 디버깅을 하기 위해 계산 과정 중간 값을 hooking해서
+Visualizing 하는 용도로 사용된다.
+
+
+2. Self-training으로 학습을 시키면 Student model을 점점 더 키워서 사용을 한다는데
+    1. 모델을 키운다는 의미가 더 많은 parameter를 가지도록 모델을 만든다는 말인가요?
+    2. Self-training에서 모델을 어떤식으로 키우는지 궁금합니다. 감이 전혀 없어서요.
+
