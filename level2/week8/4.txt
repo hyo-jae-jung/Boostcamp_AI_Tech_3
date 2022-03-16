@@ -9,13 +9,18 @@ instance가 아니라 픽셀단위!
 
 2. Semantic segmentation architectures
 
-fully convolutional networks(FCN)
+[fully convolutional networks(FCN)]
 alexnet은 입력 dimension과 출력 dimension이 다르면 안 좋은데
 FCN은 달라도 됨.
 
 1x1 conv 가 key point
 
+blocky문제 해결 -> upsampling + convolution
+
 upsampling??? -> reverse downsampling 
+
+FCN vs hypercolumn
+
 
 [U-Net]
 skip connection -> residual block 만드는 작업
@@ -25,7 +30,20 @@ downsampling에서 영상 사이즈가 홀수면 나머지를 버리는데
 upsampling 시 기존 영상 사이즈의 복원이 안되기 때문에
 홀수 사이즈가 나오지 않도록 주의해야 한다.
 
+정리하고 넘어가면 FCN은 downsampling 후 한방에 upsampling으로 input size만큼 크기를 키우고
+U Net은 downsampling 후 동일한 횟수로 upsampling을 해서 사이즈를 키움
+
+
 [DeepLab]
-CRFs
+- CRFs : https://m.blog.naver.com/laonple/221017461464
+
 Attous Convolution
-Dilated convolution
+- Dilated convolution : 커널 크기대로 찍는 게 아니라 크기를 키워서 찍는데 3x3의 빽빽한 커널을 5x5에 홀수 자리에만 파라미터를 같도록... 그래서 파라미터 수는 기존과 같음
+
+- Depthwise separable conv
+tensor를 바로 원소로 바꾸는게 아니라 
+tensor를 채널별로 conv 시키고
+conv된 백터를 다시 conv에서 원소를 만듬
+
+이렇게 하면 계산량도 줄어듬
+

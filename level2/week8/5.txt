@@ -1,0 +1,64 @@
+**Object detection**
+
+1. Object detection
+Semantic segmentation에서 진보된게
+Instance segmentation, Panoptic segmentation인데
+같은 class여도 instance의 구분이 가능해짐
+
+bounding box는 좌표와 클래스 정보로 구성
+classification + Box localization
+
+2. Two-stage detector(R-CNN family)
+- Gradient-based detector
+    SVM을 사용해서 이미지의 경계선을 학습
+
+- Selective search
+    bounding box proposer라고 불리기도 함. 바운딩 박스를 제안하는 기능이라는 건데
+    이미지의 영역들을 잘게 구분 지은 다음 비슷한 영역끼리 합쳐나면서 bounding box를 추출
+    
+R-CNN
+    1. Input image
+    2. Extract region proposals (~selective search)
+    3. Compute CNN features
+    4. Classify regions
+
+    단점
+    속도가 느림. Extract region proposals 작업을 이미지마다 해줘야 해서
+
+Fast R-CNN
+    1. Conv. feature map from the original image
+    2. RoI feature extraction from the feature map through RoI pooling
+     - 한번 뽑은 피쳐를 여러번 재활용 하는 걸 도와줌
+    3. Class and box prediction for each RoI
+    ※ ROI(Regions of Interest) : 이미지상에서 관심있어하는 일부 영역
+
+    속도가 빨라졌지만
+    region proposal에서 별도의 algorithm(selective search)을 사용해야 하는 단점이 있음
+    사람 손으로 디자인 된 알고리즘에 성능이 묶여버림(딥러닝이 사람의 한계를 뛰어 넘는 것과는 반대됨)
+
+Faster R-CNN
+    그래서 Region proposal을 nural network로 계선 -> 최초의 end to end 모델이 됨.
+        ※ IoU(Intersection over Union) = Area of Overlap / Area of Union
+         - 두 이미지가 많이 겹치면 좋은 값
+
+    label(GT:Ground Truth)의 bbox과 Anchor boxes의 IoU를 구해서 높은 곳에 positive 가중치, 반대는 negative 가중치를 줘서 bbox를 찾아냄
+    이 기능을 Region Proposal Network(RPN)인데 selective search같은 알고리즘을 대체함
+    찾은 bbox가 여러개인데 Non-Maximum Suppression(NMS)알고리즘으로 GT의 bbox와 가장 비슷한 bbox를 선택
+
+
+3. Single-stage detector
+
+    YOLO
+    SSD
+
+4. Two-stage detector vs. one-stage detector
+
+    Focal loss : Closs Entropy를 base로 하는데 수식 앞에 확률텀을 하나 줘서 예측 성공과 실패에 가중치는 더 주는 방식
+    RetinaNet
+    Detection with Transformer
+     - ViT(Vision Transformer) by Google
+     - DeiT(Data-efficient image Transformer) by Facebook
+     - DETR(DEtection TRansformer) by Facebook
+    
+    Further reading
+
