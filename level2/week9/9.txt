@@ -1,0 +1,8 @@
+Multi-modal Learning
+
+1. Overview of mulit-modal Learning
+
+    
+
+2. Multi-modal tasks (1) - Visual data & Text
+3. Multi-modal tasks (1) - Visual data & Audio

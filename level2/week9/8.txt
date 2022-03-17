@@ -1,0 +1,9 @@
+1. Conditional generative model
+
+    Conditional GAN
+    Super resolution
+    pix2pix
+    CycleGAN
+
+2. Image translation GANs
+3. Various GAN applications

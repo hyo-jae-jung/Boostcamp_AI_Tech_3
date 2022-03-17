@@ -1,0 +1,10 @@
+gap(global average pooling)를 해서 pretrained 됐기 때문에 
+위치정보를 가지는 학습이 가능했다 는 말이 이해가 안됨.
+
+cGAN
+gan 단점을 크게 극복시켰음
+학습이 어렵고 컨트롤하기 어려운 문제를 해결
+
+gan은 loss를 기준으로 경쟁은 한다.
+
+정경훈 조교님
