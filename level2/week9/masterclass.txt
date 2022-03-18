@@ -1,0 +1,7 @@
+Tips for Working with Deep Learning
+
+google scholar 논문 서칭하기 좋은 사이트
+
+ArXiv Sanity 따끈따끈한 논문
+
+Papers with code
