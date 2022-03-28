@@ -1,0 +1,13 @@
+Advanced Object Detection 1
+
+Cascade RCNN
+
+
+
+Deformable Convolutional Networks(DCN)
+
+CNN은 커널이 고정돼서 geometric한 변화에 대응을 못함 -> 커널을 변화할 수 있게 만듬
+객체를 사각형이 아닌 객체의 모양대로 인식
+
+Transformer
+
