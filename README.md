@@ -13,7 +13,7 @@ Machine_Learning_Loadmap.jpg
     - [x] Linear Regression with inverse array
     - [x] Gradient Descent(GD)
     - [x] Linear regression with GD
-    - [x] mini batch Sampling Gradient Descent(mini batch SGD)
+    - [x] mini batch Stochastic Gradient Descent(mini batch SGD)
     - [x] Deep Learning
     - [x] Monte Carlo Sampling
     - [x] Maximum Likelihood Estimator(MLE)
